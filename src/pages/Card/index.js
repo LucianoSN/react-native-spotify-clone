@@ -7,14 +7,14 @@ import {
     SubTitleDescription,
 } from './styles';
 
-const Card = () => {
+const Card = ({ item }) => {
     return (
         <Container>
             <Photo />
             <ContainerSubtitle>
-                <SubTitle>Seus Pedidos do dia</SubTitle>
+                <SubTitle>{item.subtitle.title}</SubTitle>
                 <SubTitleDescription>
-                    Episódios de podcast escolhidos por você
+                    {item.subtitle.description}
                 </SubTitleDescription>
             </ContainerSubtitle>
         </Container>

@@ -1,7 +1,7 @@
-import slide from './slide.json';
+import slides from './slides.json';
 
 export default {
-    async fetchSlide() {
-        return slide;
+    async fetchSlides() {
+        return slides;
     },
 };

@@ -3,17 +3,16 @@ import React from 'react';
 import { Container, SlideScroll, Title } from './styles';
 import Card from '../Card';
 
-const SlideCard = () => {
+const SlideCard = ({ slide }) => {
+    console.log(slide);
     return (
         <Container>
-            <Title>Test title</Title>
+            <Title>{slide.title}</Title>
             <SlideScroll>
-                <Card />
-                <Card />
-                <Card />
-                <Card />
-                <Card />
-                <Card />
+                {slide.items &&
+                    slide.items.map((item, index) => (
+                        <Card key={index} item={item} />
+                    ))}
             </SlideScroll>
         </Container>
     );
