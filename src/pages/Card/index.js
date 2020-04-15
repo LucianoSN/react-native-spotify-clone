@@ -10,7 +10,7 @@ import {
 const Card = ({ item }) => {
     return (
         <Container>
-            <Photo />
+            <Photo source={{ uri: item.photo }} />
             <ContainerSubtitle>
                 <SubTitle>{item.subtitle.title}</SubTitle>
                 <SubTitleDescription>
