@@ -4,7 +4,6 @@ import { Container, SlideScroll, Title } from './styles';
 import Card from '../Card';
 
 const SlideCard = ({ slide }) => {
-    console.log(slide);
     return (
         <Container>
             <Title>{slide.title}</Title>

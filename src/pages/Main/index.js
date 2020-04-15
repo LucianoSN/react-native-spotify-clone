@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 
 import { Container, ContainerScrollView } from './styles';
 
-import SlideCard from '../SlideCard';
+import SlideCard from '../../components/SlideCard';
 import Mock from '../../services/mock';
 
 const Main = () => {
