@@ -55,5 +55,24 @@
         }
       }
     ]
+  },
+  {
+    "title": "Playlist",
+    "items": [
+      {
+        "photo": "https://i1.wp.com/listeningthroughthelens.com/wp-content/uploads/2020/02/eliza-gilkyson-20.jpg?resize=300%2C300&ssl=1",
+        "subtitle": {
+          "title": "Eliza Glkyson",
+          "description": "Relaxe enquanto escuta"
+        }
+      },
+      {
+        "photo": "https://i2.wp.com/listeningthroughthelens.com/wp-content/uploads/2020/02/brendan-dodd-what-a-way-to-die.jpg?w=400&ssl=1",
+        "subtitle": {
+          "title": "Brandonn Dood",
+          "description": "Música alternativa aos seus ouvidos"
+        }
+      }
+    ]
   }
 ]

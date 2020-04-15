@@ -5,7 +5,7 @@ import { Container, SubContainer, GroupAction, ActionName } from './styles';
 const TabBar = () => {
     const [iconConfigure] = useState({
         color: '#fff',
-        size: 25,
+        size: 22,
     });
 
     return (
@@ -13,6 +13,15 @@ const TabBar = () => {
             <SubContainer>
                 <GroupAction>
                     <Icon name="home" {...iconConfigure} />
+                    <ActionName>Início</ActionName>
+                </GroupAction>
+                <GroupAction>
+                    <Icon name="search" {...iconConfigure} />
+                    <ActionName>Buscar</ActionName>
+                </GroupAction>
+                <GroupAction>
+                    <Icon name="book-reader" {...iconConfigure} />
+                    <ActionName>Sua Biblioteca</ActionName>
                 </GroupAction>
             </SubContainer>
         </Container>
